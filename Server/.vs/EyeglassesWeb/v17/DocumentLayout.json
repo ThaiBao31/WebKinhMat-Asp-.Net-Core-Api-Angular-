@@ -1,0 +1,884 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\services\\productimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\services\\productimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\eyeglassesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\eyeglassesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\topsellingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\topsellingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\productavatarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\productavatarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\productadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\productadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\orderstatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\orderstatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\orderadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\orderadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\productimageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\productimageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\migrations\\20240821092440_addpurchaseprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\migrations\\20240821092440_addpurchaseprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\orderadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\orderadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\migrations\\20240820135003_addorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\migrations\\20240820135003_addorderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\migrations\\20240806081152_addquantitytoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\migrations\\20240806081152_addquantitytoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\migrations\\20240813093151_cartitemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\migrations\\20240813093151_cartitemid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\getcartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\dto\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\eyeglassesweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\eyeglassesweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\migrations\\20240725102411_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\migrations\\20240725102411_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thaib\\AppData\\Local\\Temp\\.vsdbgsrc\\d671165717e3e8529965e0b3e253bcb6d11ae35b0bb204b5dbc4bbd3b39c4c19\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|c:\\users\\thaib\\source\\repos\\eyeglassesweb\\eyeglassesweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAAADC5D-CF11-422E-A102-1FF1F4585D00}|EyeglassesWeb\\EyeglassesWeb.csproj|solutionrelative:eyeglassesweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Category.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:42:25.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EyeglassesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\EyeglassesDbContext.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\EyeglassesDbContext.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\EyeglassesDbContext.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\EyeglassesDbContext.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAmwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:45:42.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:43:58.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Order.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:43:40.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\User.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:45:07.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductImageService.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Services\\ProductImageService.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Services\\ProductImageService.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Services\\ProductImageService.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Services\\ProductImageService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T02:57:53.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Services\\UserService.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T13:50:08.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Services\\IUserService.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T13:49:34.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\CartItem.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:41:57.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Cart.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:41:41.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Brand.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:33:35.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T12:12:58.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TopSellingController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\TopSellingController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\TopSellingController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\TopSellingController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\TopSellingController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwBoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:36:46.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\test.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\test.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\test.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:05:54.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RevenueController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\RevenueController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\RevenueController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\RevenueController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\RevenueController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T14:00:51.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T10:15:44.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAIwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T02:24:35.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductImagesController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\ProductImagesController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductImagesController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\ProductImagesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAHsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T02:44:58.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductAvatarController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductAvatarController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\ProductAvatarController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductAvatarController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\ProductAvatarController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T02:15:24.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductAdminController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\ProductAdminController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ProductAdminController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\ProductAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T06:40:11.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderStatsController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\OrderStatsController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\OrderStatsController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\OrderStatsController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\OrderStatsController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwBcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:12:14.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAgwHcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:17:04.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\OrderAdminController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\OrderAdminController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\OrderAdminController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\OrderAdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T08:39:37.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:38:30.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\FilterController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\FilterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T14:12:28.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategorysController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\CategorysController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\CategorysController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\CategorysController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\CategorysController.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:37:02.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ColorsController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ColorsController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\ColorsController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\ColorsController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\ColorsController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAJQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:55:02.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\CartController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAB0BAAAAAAAAAAAIwDcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:00:48.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Controllers\\BrandController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAAABsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:38:02.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductImageUploadDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\ProductImageUploadDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\ProductImageUploadDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\ProductImageUploadDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\ProductImageUploadDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T02:46:43.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Program.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Program.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Program.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAIwKsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:46:34.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\ProductUpdateDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\ProductUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\ProductUpdateDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\ProductUpdateDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:08:14.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:09:12.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Product.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Product.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA8wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:44:20.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\OrderDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\OrderDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\OrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:15:49.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateOrderStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\UpdateOrderStatusDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\UpdateOrderStatusDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\UpdateOrderStatusDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\UpdateOrderStatusDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T03:17:09.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateCartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\UpdateCartItemDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\UpdateCartItemDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\UpdateCartItemDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\UpdateCartItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:53:46.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240821092440_AddPurchasePrice.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240821092440_AddPurchasePrice.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Migrations\\20240821092440_AddPurchasePrice.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240821092440_AddPurchasePrice.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Migrations\\20240821092440_AddPurchasePrice.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:24:46.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderAdminDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\OrderAdminDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\OrderAdminDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\OrderAdminDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\OrderAdminDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T09:01:37.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240813093151_cartitemid.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240813093151_cartitemid.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Migrations\\20240813093151_cartitemid.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240813093151_cartitemid.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Migrations\\20240813093151_cartitemid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T09:31:53.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\OrderDetailDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\OrderDetailDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\OrderDetailDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\OrderDetailDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:16:10.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20240820135003_AddOrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240820135003_AddOrderStatus.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Migrations\\20240820135003_AddOrderStatus.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240820135003_AddOrderStatus.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Migrations\\20240820135003_AddOrderStatus.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:50:05.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240806081152_AddQuantityToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240806081152_AddQuantityToProduct.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Migrations\\20240806081152_AddQuantityToProduct.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240806081152_AddQuantityToProduct.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Migrations\\20240806081152_AddQuantityToProduct.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:11:57.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Color.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Color.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Color.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Color.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T14:35:10.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetCartDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\GetCartDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\GetCartDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\GetCartDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\GetCartDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:50:25.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\DTO\\CartItemDTO.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\DTO\\CartItemDTO.cs",
+              "RelativeToolTip": "EyeglassesWeb\\DTO\\CartItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T13:49:43.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\appsettings.json",
+              "RelativeToolTip": "EyeglassesWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T10:00:19.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Review.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Review.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:44:51.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\Gender.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\Gender.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:43:23.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Models\\ProductImage.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Models\\ProductImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T09:44:35.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EyeglassesWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\EyeglassesWeb.csproj",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\EyeglassesWeb.csproj",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\EyeglassesWeb.csproj",
+              "RelativeToolTip": "EyeglassesWeb\\EyeglassesWeb.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T07:55:45.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240725102411_First.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240725102411_First.cs",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Migrations\\20240725102411_First.cs",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Migrations\\20240725102411_First.cs",
+              "RelativeToolTip": "EyeglassesWeb\\Migrations\\20240725102411_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:11:22.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EyeglassesWeb\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\thaib\\source\\repos\\EyeglassesWeb\\EyeglassesWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EyeglassesWeb\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T10:02:57.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thaib\\AppData\\Local\\Temp\\.vsdbgsrc\\d671165717e3e8529965e0b3e253bcb6d11ae35b0bb204b5dbc4bbd3b39c4c19\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d671165717e3e8529965e0b3e253bcb6d11ae35b0bb204b5dbc4bbd3b39c4c19\\Program.cs",
+              "ToolTip": "C:\\Users\\thaib\\AppData\\Local\\Temp\\.vsdbgsrc\\d671165717e3e8529965e0b3e253bcb6d11ae35b0bb204b5dbc4bbd3b39c4c19\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\d671165717e3e8529965e0b3e253bcb6d11ae35b0bb204b5dbc4bbd3b39c4c19\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAOBvwBsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:53:12.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

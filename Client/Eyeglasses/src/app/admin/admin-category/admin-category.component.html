@@ -1,0 +1,80 @@
+<div class="admin">
+  <!-- Thanh bên quản trị -->
+  <app-admin-sidebar></app-admin-sidebar>
+
+  <div class="data-table">
+    <div class="data-table__content">
+      <!-- Tiêu đề bảng -->
+      <h2 class="data-table__title">Sản phẩm</h2>
+      <!-- Nút thêm danh mục mới -->
+      <button class="data-table__add-button" (click)="openAddCategoryForm()">Thêm danh mục mới</button>
+      <!-- Bảng danh mục -->
+      <table class="data-table__table">
+        <thead class="data-table__thead">
+          <tr class="data-table__row">
+            <!-- Các tiêu đề cột -->
+            <th class="data-table__header">Id</th>
+            <th class="data-table__header">Tên danh mục</th>
+            <th class="data-table__header">Hành động</th>
+          </tr>
+        </thead>
+        <tbody class="data-table__tbody">
+          <!-- Dữ liệu danh mục -->
+          <tr class="data-table__row" *ngFor="let category of paginatedCategorys">
+            <td class="data-table__cell">{{ category.categoryId }}</td>
+            <td class="data-table__cell">{{ category.name }}</td>
+            <td class="data-table__cell">
+              <!-- Nút sửa danh mục -->
+              <button class="data-table__edit-button" (click)="editCategory(category)">Sửa</button>
+              <!-- Nút xóa danh mục -->
+              <button class="data-table__delete-button" (click)="deleteCategory(category.categoryId)">Xóa</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="data-table__pagination">
+      <!-- Thông tin phân trang -->
+      <span class="data-table__info">
+        Hiển thị {{ (currentPage - 1) * itemsPerPage + 1 }} đến
+        {{ currentPage * itemsPerPage > categorys.length ? categorys.length : currentPage * itemsPerPage }} của
+        {{ categorys.length }} mục
+      </span>
+      <div class="data-table__pages">
+        <!-- Nút trang trước -->
+        <button class="data-table__button" (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">Trang
+          trước</button>
+        <!-- Nút chọn trang -->
+        <button class="data-table__button" *ngFor="let page of pageNumbers" (click)="goToPage(page)"
+          [ngClass]="{'active': page === currentPage}">
+          {{ page }}
+        </button>
+        <!-- Nút trang sau -->
+        <button class="data-table__button" (click)="goToPage(currentPage + 1)"
+          [disabled]="currentPage === totalPages">Trang sau</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form thêm/sửa danh mục -->
+  <div *ngIf="showForm" class="form-container">
+    <div class="form-content">
+      <!-- Tiêu đề form -->
+      <h2 class="form-title">{{ editMode ? 'Sửa danh mục' : 'Thêm danh mục mới' }}</h2>
+      <form [formGroup]="categoryForm" (ngSubmit)="saveCategory()" class="category-form">
+        <div class="form-contents">
+          <!-- Nhãn và ô nhập tên danh mục -->
+          <label for="name" class="form-label">Tên danh mục</label>
+          <input id="name" formControlName="name" class="form-input">
+        </div>
+        <div class="form-buttons">
+          <!-- Nút lưu form -->
+          <button type="submit" class="form-submit">Lưu</button>
+          <!-- Nút hủy form -->
+          <button type="button" (click)="cancel()" class="form-cancel">Hủy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

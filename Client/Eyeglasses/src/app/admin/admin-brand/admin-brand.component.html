@@ -1,0 +1,68 @@
+<div class="admin">
+  <!-- Sidebar quản trị -->
+  <app-admin-sidebar></app-admin-sidebar>
+
+  <div class="data-table">
+    <div class="data-table__content">
+      <!-- Tiêu đề và nút thêm thương hiệu -->
+      <h2 class="data-table__title">Thương hiệu</h2>
+      <button class="data-table__add-button" (click)="openAddBrandForm()">Thêm thương hiệu mới</button>
+      
+      <!-- Bảng dữ liệu thương hiệu -->
+      <table class="data-table__table">
+        <thead class="data-table__thead">
+          <tr class="data-table__row">
+            <th class="data-table__header">Id</th>
+            <th class="data-table__header">Tên thương hiệu</th>
+            <th class="data-table__header">Hành động</th>
+          </tr>
+        </thead>
+        <tbody class="data-table__tbody">
+          <tr class="data-table__row" *ngFor="let brand of paginatedBrands">
+            <td class="data-table__cell">{{ brand.brandId }}</td>
+            <td class="data-table__cell">{{ brand.name }}</td>
+            <td class="data-table__cell">
+              <!-- Nút sửa và xóa thương hiệu -->
+              <button class="data-table__edit-button" (click)="editBrand(brand)">Sửa</button>
+              <button class="data-table__delete-button" (click)="deleteBrand(brand.brandId)">Xóa</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Phân trang -->
+    <div class="data-table__pagination">
+      <span class="data-table__info">
+        Hiển thị {{ (currentPage - 1) * itemsPerPage + 1 }} đến
+        {{ currentPage * itemsPerPage > brands.length ? brands.length : currentPage * itemsPerPage }} của
+        {{ brands.length }} mục
+      </span>
+      <div class="data-table__pages">
+        <!-- Nút chuyển trang -->
+        <button class="data-table__button" (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">Trang trước</button>
+        <button class="data-table__button" *ngFor="let page of pageNumbers" (click)="goToPage(page)" [ngClass]="{'active': page === currentPage}">
+          {{ page }}
+        </button>
+        <button class="data-table__button" (click)="goToPage(currentPage + 1)" [disabled]="currentPage === totalPages">Trang sau</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form thêm/sửa thương hiệu -->
+  <div *ngIf="showForm" class="form-container">
+    <div class="form-content">
+      <h2 class="form-title">{{ editMode ? 'Sửa thương hiệu' : 'Thêm thương hiệu mới' }}</h2>
+      <form [formGroup]="brandForm" (ngSubmit)="saveBrand()" class="brand-form">
+        <div class="form-contents">
+          <label for="name" class="form-label">Tên thương hiệu</label>
+          <input id="name" formControlName="name" class="form-input">
+        </div>
+        <div class="form-buttons">
+          <button type="submit" class="form-submit">Lưu</button>
+          <button type="button" (click)="cancel()" class="form-cancel">Hủy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

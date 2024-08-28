@@ -1,0 +1,37 @@
+/* Block: eyeglass-page */
+.eyeglass-page {
+    padding: 20px;
+  }
+  
+  /* Block: breadcrumb */
+  .breadcrumb {
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb__link {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .breadcrumb__separator {
+    margin: 0 5px;
+  }
+  
+  .breadcrumb__current {
+    font-weight: bold;
+  }
+
+  .eyeglass-page__content {
+    display: flex;
+    width: 70vw;
+    margin: 5px auto;
+  }
+  
+  .eyeglass-page__content-left {
+    width: 30%;
+  }
+  
+  .eyeglass-page__content-right {
+    width: 70%;
+  }
+  

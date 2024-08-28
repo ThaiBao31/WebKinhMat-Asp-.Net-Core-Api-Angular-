@@ -1,0 +1,103 @@
+/* BEM CSS for DataTable */
+.admin {
+    display: flex;
+    background-color: rgb(209, 209, 209);
+  }
+  
+  .data-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 40px;
+    margin: 40px auto;
+    width: 1050px; /* Chiều rộng cố định */
+    height: 540px; /* Chiều cao cố định */
+    overflow: hidden; /* Ngăn tràn để giữ bố cục */
+  }
+  
+  .data-table__title {
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+  
+  .data-table__controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .data-table__label {
+    margin-right: 10px;
+  }
+  
+  .data-table__select {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .data-table__entries {
+    margin-right: auto;
+  }
+  
+  .data-table__table-container {
+    flex-grow: 1; /* Cho phép container bảng mở rộng và chiếm không gian có sẵn */
+
+    margin-bottom: 20px; /* Thêm khoảng cách để tách biệt với phân trang */
+  }
+  
+  .data-table__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table__thead {
+    background-color: #f1f1f1;
+  }
+  
+  .data-table__row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .data-table__header,
+  .data-table__cell {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .data-table__info {
+    font-size: 14px;
+  }
+  
+  .data-table__pages {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .data-table__button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .data-table__button:hover {
+    background-color: #ddd;
+  }
+  
+  .data-table__button:disabled {
+    cursor: not-allowed;
+    background-color: #e0e0e0;
+  }
+  

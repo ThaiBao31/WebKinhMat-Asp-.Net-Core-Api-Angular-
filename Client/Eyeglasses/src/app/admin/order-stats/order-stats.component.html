@@ -1,0 +1,19 @@
+<div>
+    <h2>Thống kê đơn hàng</h2>
+  
+    <div>
+      <h3>Thống kê Theo Ngày</h3>
+      <input type="date" [(ngModel)]="dailyDate" />
+      <button (click)="getDailyOrderStats()">Tính</button>
+      <p *ngIf="orderStats.completedOrders !== undefined">
+        Hoàn thành: {{ orderStats.completedOrders }} đơn hàng
+      </p>
+      <p *ngIf="orderStats.pendingOrders !== undefined">
+        Đang chờ: {{ orderStats.pendingOrders }} đơn hàng
+      </p>
+      <p *ngIf="orderStats.cancelledOrders !== undefined">
+        Đã hủy: {{ orderStats.cancelledOrders }} đơn hàng
+      </p>
+    </div>
+  </div>
+  

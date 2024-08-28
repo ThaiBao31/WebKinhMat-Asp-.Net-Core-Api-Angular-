@@ -1,0 +1,55 @@
+/* Đặt kích thước cố định cho form và quản lý overflow */
+.product-images-container {
+  width: 400px; /* Chiều rộng cố định cho container chứa ảnh */
+  padding: 20px; /* Khoảng cách bên trong container */
+  border: 1px solid #ddd; /* Đường viền xung quanh container */
+  border-radius: 8px; /* Góc bo tròn cho container */
+  background-color: #f9f9f9; /* Màu nền cho container */
+  margin: 0 auto; /* Căn giữa container trên trang */
+  overflow: auto; /* Hiển thị thanh cuộn khi nội dung vượt quá kích thước của container */
+  box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước tổng thể */
+}
+
+/* Danh sách hình ảnh */
+.image-list-container {
+  overflow: auto; /* Thêm thanh cuộn khi nội dung vượt quá kích thước của vùng chứa */
+}
+
+.image-list {
+  list-style-type: none; /* Loại bỏ dấu chấm đầu danh sách */
+  padding: 0; /* Xóa padding của danh sách */
+  margin: 0; /* Xóa margin của danh sách */
+}
+
+.image-item {
+  display: flex; /* Sử dụng flexbox để căn chỉnh hình ảnh và nút xóa */
+  align-items: center; /* Căn giữa hình ảnh và nút xóa theo chiều dọc */
+  margin-bottom: 10px; /* Khoảng cách dưới mỗi mục hình ảnh */
+}
+
+.product-image {
+  max-width: 100px; /* Chiều rộng tối đa của mỗi hình ảnh */
+  height: auto; /* Chiều cao tự động giữ tỷ lệ khung hình của hình ảnh */
+  display: block; /* Hiển thị hình ảnh như một khối để loại bỏ khoảng trắng dưới ảnh */
+  margin-right: 10px; /* Khoảng cách giữa hình ảnh và nút xóa */
+}
+
+.delete-button {
+  padding: 5px 10px; /* Khoảng cách bên trong nút xóa */
+  background-color: #ff0000; /* Màu nền cho nút xóa */
+  color: white; /* Màu chữ của nút xóa */
+  border: none; /* Loại bỏ viền của nút xóa */
+  border-radius: 4px; /* Góc bo tròn cho nút xóa */
+  cursor: pointer; /* Hiển thị con trỏ chuột khi di chuột qua nút xóa */
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* Thay đổi màu nền khi di chuột qua nút xóa */
+}
+
+/* Đảm bảo không có khoảng cách thừa xung quanh hình ảnh */
+img {
+  max-width: 100%; /* Chiều rộng tối đa của hình ảnh không vượt quá kích thước của container */
+  height: auto; /* Chiều cao tự động giữ tỷ lệ khung hình của hình ảnh */
+  display: block; /* Hiển thị hình ảnh như một khối để loại bỏ khoảng trắng dưới ảnh */
+}

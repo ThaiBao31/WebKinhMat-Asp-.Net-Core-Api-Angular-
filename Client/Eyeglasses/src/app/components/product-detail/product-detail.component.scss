@@ -1,0 +1,161 @@
+.product-detail {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+.product-detail__gallery {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-detail__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail__thumbnails {
+  display: flex;
+  gap: 10px;
+}
+
+.product-detail__thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: 2px solid #eaeaea;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.product-detail__thumbnail:hover {
+  border-color: #000;
+}
+
+.product-detail__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-detail__title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.product-detail__subtitle {
+  color: #777;
+  font-size: 1.2em;
+}
+
+.product-detail__rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-detail__stars {
+  color: #ffc107;
+}
+
+.product-detail__reviews {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product-detail__label {
+  font-size: 1em;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #ffeeba;
+  color: #856404;
+}
+
+.product-detail__price {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.product-detail__price-info {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.product-detail__color {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-detail__color-options {
+  display: flex;
+  gap: 8px;
+}
+
+.product-detail__color-option {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.product-detail__color-option:hover {
+  background-color: #f8f9fa;
+}
+
+.product-detail__color-guide {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.product-detail__cta {
+  padding: 12px 16px;
+  background-color: #d4a258;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.product-detail__cta:hover {
+  background-color: #bf8b47;
+}
+
+.product-detail__features {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.product-detail__feature {
+  font-size: 0.9em;
+  color: #28a745;
+}
+
+.product-detail__description {
+  margin-top: 40px;
+}
+
+.product-detail__description-title {
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+
+.product-detail__description-text {
+  font-size: 1em;
+  color: #555;
+}
+
+

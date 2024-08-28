@@ -1,0 +1,76 @@
+<div class="admin">
+  <!-- Sidebar quản lý admin -->
+  <app-admin-sidebar></app-admin-sidebar>
+
+  <div class="data-table">
+    <div class="data-table__content">
+      <!-- Tiêu đề bảng -->
+      <h2 class="data-table__title">Sản phẩm</h2>
+      <!-- Nút để mở form thêm danh mục mới -->
+      <button class="data-table__add-button" (click)="openAddColorForm()">Thêm danh mục mới</button>
+      <table class="data-table__table">
+        <thead class="data-table__thead">
+          <tr class="data-table__row">
+            <th class="data-table__header">Id</th>
+            <th class="data-table__header">Tên danh mục</th>
+            <th class="data-table__header">Hành động</th>
+          </tr>
+        </thead>
+        <tbody class="data-table__tbody">
+          <!-- Lặp qua danh sách các màu và hiển thị mỗi màu trong một hàng -->
+          <tr class="data-table__row" *ngFor="let color of paginatedColors">
+            <td class="data-table__cell">{{ color.colorId }}</td>
+            <td class="data-table__cell">{{ color.name }}</td>
+            <td class="data-table__cell">
+              <!-- Nút để chỉnh sửa màu -->
+              <button class="data-table__edit-button" (click)="editColor(color)">Sửa</button>
+              <!-- Nút để xóa màu -->
+              <button class="data-table__delete-button" (click)="deleteColor(color.colorId)">Xóa</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="data-table__pagination">
+      <span class="data-table__info">
+        Hiển thị {{ (currentPage - 1) * itemsPerPage + 1 }} đến 
+        {{ currentPage * itemsPerPage > colors.length ? colors.length : currentPage * itemsPerPage }} của 
+        {{ colors.length }} mục
+      </span>
+      <div class="data-table__pages">
+        <!-- Nút để chuyển đến trang trước -->
+        <button class="data-table__button" (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">Trang trước</button>
+        <!-- Lặp qua các số trang và hiển thị nút cho mỗi số trang -->
+        <button class="data-table__button" *ngFor="let page of pageNumbers" 
+          (click)="goToPage(page)" [ngClass]="{'active': page === currentPage}">
+          {{ page }}
+        </button>
+        <!-- Nút để chuyển đến trang sau -->
+        <button class="data-table__button" (click)="goToPage(currentPage + 1)" [disabled]="currentPage === totalPages">Trang sau</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hiển thị form nếu showForm là true -->
+  <div *ngIf="showForm" class="form-container">
+    <div class="form-content">
+      <!-- Tiêu đề của form -->
+      <h2 class="form-title">{{ editMode ? 'Sửa danh mục' : 'Thêm danh mục mới' }}</h2>
+      <!-- Form để thêm hoặc sửa danh mục -->
+      <form [formGroup]="colorForm" (ngSubmit)="saveColor()" class="category-form">
+        <div class="form-contents">
+          <!-- Nhãn và trường nhập cho tên danh mục -->
+          <label for="name" class="form-label">Tên danh mục</label>
+          <input id="name" formControlName="name" class="form-input">
+        </div>
+        <div class="form-buttons">
+          <!-- Nút để lưu thông tin danh mục -->
+          <button type="submit" class="form-submit">Lưu</button>
+          <!-- Nút để hủy và đóng form -->
+          <button type="button" (click)="cancel()" class="form-cancel">Hủy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

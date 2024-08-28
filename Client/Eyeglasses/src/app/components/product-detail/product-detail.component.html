@@ -1,0 +1,51 @@
+<div class="product-detail" *ngIf="product">
+  <div class="product-detail__gallery">
+    <button class="product-detail__nav product-detail__nav--prev" (click)="prevImage()">&#10094;</button>
+    
+    <img class="product-detail__image" 
+         [src]="selectedImage" 
+         [alt]="product.name">
+    
+    <button class="product-detail__nav product-detail__nav--next" (click)="nextImage()">&#10095;</button>
+    
+    <div class="product-detail__thumbnails">
+      <img class="product-detail__thumbnail" 
+           *ngFor="let image of productThumbnailImages" 
+           [src]="image" 
+           [alt]="product.name"
+           (click)="onThumbnailClick(image)">
+    </div>
+  </div>
+  
+  <div class="product-detail__info">
+    <h1 class="product-detail__title">{{ product.name }}</h1>
+    <p class="product-detail__subtitle">SL: {{ product.quantity }}</p>
+
+    <p class="product-detail__subtitle">{{ product.description }}</p>
+    <div class="product-detail__rating">
+      <span class="product-detail__stars">⭐⭐⭐⭐⭐</span>
+      <a href="#reviews" class="product-detail__reviews">635 Reviews</a>
+    </div>
+    <p class="product-detail__label product-detail__label--highlight">
+      Popular frame! 112 people have their eyes on this frame.
+    </p>
+    <p class="product-detail__price">{{ product.price | currency }}</p>
+    <p class="product-detail__price-info">price includes 1.5 index prescription lenses</p>
+   
+    <button class="product-detail__cta" (click)="addToCart()">Thêm vào giỏ hàng</button>
+    
+    <div class="product-detail__features">
+      <span class="product-detail__feature">✔ Secure Payment</span>
+      <span class="product-detail__feature">✔ 14 Day Easy Returns</span>
+      <span class="product-detail__feature">✔ 24/7 Customer Service</span>
+    </div>
+  </div>
+  
+  <div *ngIf="addToCartSuccess" class="alert alert-success">
+    Sản phẩm đã được thêm vào giỏ hàng thành công!
+  </div>
+
+  <div *ngIf="addToCartError" class="alert alert-danger">
+    {{ addToCartError }}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="eyeglass-page">
+    <h1 class="eyeglass-page__title">Buy Prescription Eyeglasses</h1>
+    <div class="eyeglass-page__content">
+      <div class="eyeglass-page__content-left">
+        <app-product-filter (filteredProducts)="onFilteredProducts($event)"></app-product-filter>
+      </div>
+      <div class="eyeglass-page__content-right">
+        <app-product-item [products]="filteredProducts"></app-product-item>
+      </div>
+    </div>
+    
+</div>

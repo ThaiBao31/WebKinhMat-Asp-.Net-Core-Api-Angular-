@@ -1,0 +1,137 @@
+.sign-up {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    height: 90vh;
+
+}
+
+.sign-up__text {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up__header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sign-up__tab {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    color: #555;
+}
+
+.sign-up__tab--active {
+    color: #d19531;
+    border-bottom: 3px solid #d19531;
+    
+}
+
+.sign-up__header p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.sign-up__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sign-up__field{
+    width: 60%;
+}
+
+.sign-up__label {
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+
+.sign-up__input-wrapper {
+    width: 100%;
+}
+
+.sign-up__input {
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.sign-up__captcha-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up__captcha {
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sign-up__input--code {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.sign-up__refresh-code {
+    margin-top: 5px;
+    display: block;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up__options {
+    margin-bottom: 20px;
+}
+
+.sign-up__option {
+    margin-bottom: 10px;
+}
+
+.sign-up__checkbox {
+    margin-right: 10px;
+}
+
+.sign-up__checkbox-label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.sign-up__submit-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.sign-up__submit {
+    background-color: #d19531;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 60%;
+}

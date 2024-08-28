@@ -1,0 +1,40 @@
+<header class="header">
+    <div class="header__promo" [class.header__promo--hidden]="isPromoHidden">
+        <p class="header__promo-text">Giao hàng trong 2 ngày - Nhận kính của bạn nhanh hơn! | <a href="#"
+                class="header__promo-link">Mua ngay</a></p>
+    </div>
+    <nav class="header__nav" [class.header__nav--fixed]="isPromoHidden">
+        <div class="header__logo">
+            <a href="#" class="header__logo-link">
+                <img src="assets/images/logo.png" alt="Eyebuydirect" class="header__logo-image">
+            </a>
+        </div>
+        <ul class="header__menu">
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Kính mắt</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Kính râm</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Tròng kính</a></li>
+            <li class="header__menu-item"><a href="#" class="header__menu-link">Lens</a></li>
+        </ul>
+
+        <form class="header__search" (submit)="onSearch($event)">
+            <div class="header__search-container">           
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm..." [(ngModel)]="searchQuery"
+                    name="search" />
+                <button type="submit" class="header__search-button">Tìm</button>
+            </div>
+        </form>
+
+        <div class="header__actions">
+            <a *ngIf="!isLoggedIn" (click)="navigateToLogin()" class="header__action-link header__action--sign-in">Đăng
+                nhập</a>
+            <a *ngIf="isLoggedIn" (click)="logout()" href="#" class="header__action-link header__action--sign-out">Đăng
+                xuất</a>
+            <a href="#" routerLink="/product" class="header__action-link header__action--help"><i
+                    class="bi bi-question-circle icon"></i></a>
+            <a href="#" routerLink="/product" class="header__action-link header__action--favorites"><i
+                    class="bi bi-heart icon"></i></a>
+            <a href="#" routerLink="/cart" class="header__action-link header__action--cart"><i
+                    class="bi bi-bag-dash icon"></i></a>
+        </div>
+    </nav>
+</header>

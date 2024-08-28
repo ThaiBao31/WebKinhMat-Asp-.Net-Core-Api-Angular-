@@ -1,0 +1,31 @@
+<div>
+  <h2>Doanh thu</h2>
+
+  <div>
+    <h3>Doanh thu Theo Ngày</h3>
+    <input type="date" [(ngModel)]="dailyDate" />
+    <button (click)="getDailyRevenue()">Tính</button>
+    <p *ngIf="dailyRevenue.revenue !== undefined">
+      Doanh thu: {{ dailyRevenue.revenue | number }} VNĐ
+    </p>
+  </div>
+
+  <div>
+    <h3>Doanh thu Theo Tháng</h3>
+    <input type="number" [(ngModel)]="monthlyMonth" placeholder="Tháng" />
+    <input type="number" [(ngModel)]="monthlyYear" placeholder="Năm" />
+    <button (click)="getMonthlyRevenue()">Tính</button>
+    <p *ngIf="monthlyRevenue.revenue !== undefined">
+      Doanh thu: {{ monthlyRevenue.revenue | number }} VNĐ
+    </p>
+  </div>
+
+  <div>
+    <h3>Doanh thu Theo Năm</h3>
+    <input type="number" [(ngModel)]="yearlyYear" placeholder="Năm" />
+    <button (click)="getYearlyRevenue()">Tính</button>
+    <p *ngIf="yearlyRevenue.revenue !== undefined">
+      Doanh thu: {{ yearlyRevenue.revenue | number }} VNĐ
+    </p>
+  </div>
+</div>

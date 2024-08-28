@@ -1,0 +1,145 @@
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    width: 100%;
+  }
+  
+  .footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer__follow-us,
+  .footer__links {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer__links{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    
+  }
+
+  .footer__title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .footer__social-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__social-item {
+    margin-right: 10px;
+    list-style-type: none;
+    
+  }
+  
+  .footer__social-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer__social-link:hover {
+    color: #ffd700;
+  }
+  
+  .footer__certifications img {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .footer__regions {
+    margin-top: 20px;
+  }
+  
+  .footer__region {
+    font-weight: bold;
+  }
+  
+  .footer__region-link {
+    color: #ffd700;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .footer__region-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__link-list {
+    margin-bottom: 20px;
+    padding: 0px;
+  } 
+
+  .footer__link-list li{
+    list-style-type: none;
+  }
+
+  
+  
+  .footer__link {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer__text {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer__policy-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+
+  .footer__policy-item {
+    margin-right: 10px;
+    list-style-type: none;
+  }
+  
+  .footer__policy-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer__policy-link:hover {
+    text-decoration: underline;
+  }
+  

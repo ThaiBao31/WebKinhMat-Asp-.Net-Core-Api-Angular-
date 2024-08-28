@@ -1,0 +1,24 @@
+
+.admin {
+    display: flex;
+  }
+  
+ 
+
+  
+  .admin__main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .admin__header {
+    margin-bottom: 2rem;
+  }
+  
+  .admin__header-title {
+    font-size: 2rem;
+  }
+  
+  .content{
+    display: flex;
+  }

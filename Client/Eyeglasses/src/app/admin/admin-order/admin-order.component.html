@@ -1,0 +1,94 @@
+<div class="admin">
+  <!-- Sidebar của trang admin -->
+  <app-admin-sidebar></app-admin-sidebar>
+
+  <!-- Bảng dữ liệu đơn hàng -->
+  <div class="data-table">
+    <div class="data-table__content">
+      <!-- Tiêu đề của bảng dữ liệu -->
+      <h2 class="data-table__title">Đơn hàng</h2>
+      <table class="data-table__table">
+        <thead class="data-table__thead">
+          <tr class="data-table__row">
+            <!-- Các tiêu đề cột của bảng -->
+            <th class="data-table__header">Id</th>
+            <th class="data-table__header">Tên người dùng</th>
+            <th class="data-table__header">Ngày</th>
+            <th class="data-table__header">Tổng</th>
+            <th class="data-table__header">Trạng thái</th>
+            <th class="data-table__header">Hành động</th>
+          </tr>
+        </thead>
+        <tbody class="data-table__tbody">
+          <!-- Dữ liệu của bảng: lặp qua danh sách đơn hàng -->
+          <tr class="data-table__row" *ngFor="let order of paginatedOrdersList">
+            <td class="data-table__cell">{{ order.orderId }}</td>
+            <td class="data-table__cell">{{ order.userName }}</td>
+            <td class="data-table__cell">{{ order.orderDate | date:'short' }}</td>
+            <td class="data-table__cell">{{ order.totalAmount | currency }}</td>
+            <td class="data-table__cell">
+              <!-- Dropdown để chọn trạng thái đơn hàng -->
+              <select [(ngModel)]="order.status" (change)="updateOrderStatus(order)">
+                <option [value]="OrderStatus.Pending">Chờ hoàn thành</option>
+                <option [value]="OrderStatus.Completed">Hoàn thành</option>
+                <option [value]="OrderStatus.Cancelled">Đã hủy</option>
+              </select>
+            </td>
+            <td class="data-table__cell">
+              <!-- Nút xem chi tiết đơn hàng -->
+              <button (click)="selectOrder(order)">Xem chi tiết</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Phân trang -->
+    <div class="data-table__pagination">
+      <span class="data-table__info">
+        Hiển thị {{ (currentPage - 1) * itemsPerPage + 1 }} đến {{ currentPage * itemsPerPage > orders.length ?
+        orders.length : currentPage * itemsPerPage }} mục của {{ orders.length }}
+      </span>
+      <div class="data-table__pages">
+        <!-- Nút trang trước -->
+        <button class="data-table__button" (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">Trang trước</button>
+        <!-- Nút các trang -->
+        <button class="data-table__button" *ngFor="let page of pageNumbers" (click)="goToPage(page)">{{ page }}</button>
+        <!-- Nút trang sau -->
+        <button class="data-table__button" (click)="goToPage(currentPage + 1)"
+          [disabled]="currentPage === totalPages">Trang sau</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form chi tiết đơn hàng -->
+  <div *ngIf="selectedOrder" class="order-details">
+    <h2>Chi tiết đơn hàng #{{ selectedOrder.orderId }}</h2>
+    <p><strong>Người dùng:</strong> {{ selectedOrder.userName }}</p>
+    <p><strong>Ngày:</strong> {{ selectedOrder.orderDate | date:'short' }}</p>
+    <p><strong>Tổng:</strong> {{ selectedOrder.totalAmount | currency }}</p>
+
+    <h3>Chi tiết đơn hàng</h3>
+    <table>
+      <thead>
+        <tr>
+          <!-- Các tiêu đề cột của bảng chi tiết đơn hàng -->
+          <th>Sản phẩm</th>
+          <th>Số lượng</th>
+          <th>Giá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dữ liệu chi tiết đơn hàng -->
+        <tr *ngFor="let detail of selectedOrder.orderDetails">
+          <td>{{ detail.productName }}</td>
+          <td>{{ detail.quantity }}</td>
+          <td>{{ detail.price | currency }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Nút đóng form chi tiết đơn hàng -->
+    <button (click)="cancel()">Đóng</button>
+  </div>
+</div>

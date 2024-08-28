@@ -1,0 +1,34 @@
+<div class="sign-in">
+
+    <div class="sign-in__header">
+        <button class="sign-in__tab sign-in__tab--active" routerLink="/sign-in">Đăng nhập</button>
+        <button class="sign-in__tab" routerLink="/sign-up">Đăng ký</button>
+    </div>
+    <form class="sign-in__form" (ngSubmit)="login()">
+        <div class="sign-in__field">
+            <label for="email" class="sign-in__label">Email</label>
+            <div class="sign-in__input-wrapper">
+                <input type="email" id="email" class="sign-in__input" [(ngModel)]="username" name="username">
+            </div>
+        </div>
+        <div class="sign-in__field">
+            <label for="password" class="sign-in__label">Mật khẩu</label>
+            <div class="sign-in__input-wrapper">
+                <input type="password" id="password" class="sign-in__input" [(ngModel)]="password" name="password">
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <div class="sign-in__submit-wrapper">
+                <button  type="submit" class="sign-in__submit">Đăng nhập</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="sign-in__forgot-password-wrapper">
+                <a href="#" class="sign-in__forgot-password">Quên mật khẩu?</a>
+            </div>
+        </div>
+        
+    </form>
+    
+</div>

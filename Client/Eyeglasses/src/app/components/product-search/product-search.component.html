@@ -1,0 +1,28 @@
+<!-- product-search.component.html -->
+<div *ngIf="products.length > 0; else noProducts" class="product-item">
+    <ul class="product-item__list">
+      <li *ngFor="let product of products" class="product-item__card">
+        <a [routerLink]="['/product', product.productId]" class="product-item__link">
+          <div class="product-item__image-container">
+            <img 
+              *ngIf="productImages[product.productId]" 
+              [src]="productImages[product.productId]" 
+              [alt]="product.name" 
+              class="product-item__image" />
+          </div>
+          <div class="product-item__details">
+            <h3 class="product-item__name">{{ product.name }}</h3>
+            <p class="product-item__price">Giá: {{ product.price }}</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <ng-template #noProducts>
+    <p class="product-item__no-products">Không tìm thấy sản phẩm nào.</p>
+  </ng-template>
+  
+  <div *ngIf="errorMessage">
+    <p>{{ errorMessage }}</p>
+  </div>
+  

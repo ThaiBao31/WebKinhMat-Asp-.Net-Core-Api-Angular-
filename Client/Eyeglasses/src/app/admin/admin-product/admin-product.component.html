@@ -1,0 +1,161 @@
+<div class="admin">
+  <!-- Sidebar của trang admin -->
+  <app-admin-sidebar></app-admin-sidebar>
+
+  <!-- Bảng dữ liệu sản phẩm -->
+  <div class="data-table">
+    <div class="data-table__content">
+      <!-- Tiêu đề của bảng dữ liệu sản phẩm -->
+      <h2 class="data-table__title">Sản phẩm</h2>
+      <!-- Nút thêm sản phẩm mới -->
+      <button class="data-table__add-button" (click)="openAddProductForm()">Thêm sản phẩm mới</button>
+      <table class="data-table__table">
+        <thead class="data-table__thead">
+          <tr class="data-table__row">
+            <!-- Các tiêu đề cột của bảng sản phẩm -->
+            <th class="data-table__header">Id</th>
+            <th class="data-table__header">Tên sản phẩm</th>
+            <th class="data-table__header">Số lượng</th>
+            <th class="data-table__header">Hành động</th>
+          </tr>
+        </thead>
+        <tbody class="data-table__tbody">
+          <!-- Dữ liệu của bảng: lặp qua danh sách sản phẩm -->
+          <tr class="data-table__row" *ngFor="let product of paginatedProducts">
+            <td class="data-table__cell">{{ product.productId }}</td>
+            <td class="data-table__cell">{{ product.name }}</td>
+            <td class="data-table__cell">{{ product.quantity }}</td>
+            <td class="data-table__cell">
+              <!-- Các nút hành động cho sản phẩm -->
+              <button class="data-table__edit-button" (click)="openUpdateProductForm(product)">Sửa</button>
+              <button class="data-table__delete-button" (click)="deleteProduct(product.productId)">Xóa</button>
+              <button class="data-table__upload-button" (click)="openUploadImageForm(product.productId)">Tải ảnh</button>
+              <button class="data-table__view-images-button" (click)="openProductImagesForm(product.productId)">Xem ảnh</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Phân trang -->
+    <div class="data-table__pagination">
+      <span class="data-table__info">
+        Hiển thị {{ (currentPage - 1) * itemsPerPage + 1 }} đến
+        {{ currentPage * itemsPerPage > products.length ? products.length : currentPage * itemsPerPage }} của
+        {{ products.length }} mục
+      </span>
+      <div class="data-table__pages">
+        <!-- Nút trang trước -->
+        <button class="data-table__button" (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">Trang trước</button>
+        <!-- Nút các trang -->
+        <button class="data-table__button" *ngFor="let page of displayedPages" (click)="goToPage(page)" [class.active]="page === currentPage">{{ page }}</button>
+        <!-- Nút trang sau -->
+        <button class="data-table__button" (click)="goToPage(currentPage + 1)" [disabled]="currentPage === totalPages">Trang sau</button>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Form để thêm/cập nhật sản phẩm -->
+  <div *ngIf="showForm" class="form-container">
+    <div class="form-content">
+      <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+        <!-- Trường ID sản phẩm (chỉ hiển thị khi ở chế độ chỉnh sửa) -->
+        <div *ngIf="editMode" class="form-group">
+          <label for="productId" class="form-label">ID sản phẩm</label>
+          <input id="productId" formControlName="productId" type="number" class="form-input" [disabled]="true">
+        </div>
+        <!-- Trường tên sản phẩm -->
+        <div class="form-group">
+          <label for="name" class="form-label">Tên sản phẩm</label>
+          <input id="name" formControlName="name" required class="form-input">
+        </div>
+        <!-- Trường số lượng sản phẩm -->
+        <div class="form-group">
+          <label for="quantity" class="form-label">Số lượng</label>
+          <input id="quantity" formControlName="quantity" type="number" required class="form-input">
+        </div>
+        <!-- Trường mô tả sản phẩm -->
+        <div class="form-group">
+          <label for="description" class="form-label">Mô tả</label>
+          <textarea id="description" formControlName="description" required class="form-textarea"></textarea>
+        </div>
+        <!-- Trường giá nhập -->
+        <div class="form-group">
+          <label for="purchasePrice" class="form-label">Giá nhập</label>
+          <input id="purchasePrice" formControlName="purchasePrice" type="number" required class="form-input">
+        </div>
+        <!-- Trường giá bán -->
+        <div class="form-group">
+          <label for="price" class="form-label">Giá bán</label>
+          <input id="price" formControlName="price" type="number" required class="form-input">
+        </div>
+
+        <!-- Hiển thị thông báo lỗi nếu giá nhập lớn hơn giá bán -->
+        <div *ngIf="productForm.errors?.['priceInvalid']">
+          <span class="error-message">Giá nhập không được lớn hơn giá bán.</span>
+        </div>
+        
+        <!-- Trường danh mục sản phẩm -->
+        <div class="form-group">
+          <label for="categoryId" class="form-label">Danh mục</label>
+          <select id="categoryId" formControlName="categoryId" class="form-input">
+            <option *ngFor="let category of categories" [value]="category.categoryId">{{ category.name }}</option>
+          </select>
+        </div>
+        
+        <!-- Trường thương hiệu sản phẩm -->
+        <div class="form-group">
+          <label for="brandId" class="form-label">Thương hiệu</label>
+          <select id="brandId" formControlName="brandId" class="form-input">
+            <option *ngFor="let brand of brands" [value]="brand.brandId">{{ brand.name }}</option>
+          </select>
+        </div>
+        
+        <!-- Trường màu sắc sản phẩm -->
+        <div class="form-group">
+          <label for="colorId" class="form-label">Màu sắc</label>
+          <select id="colorId" formControlName="colorId" class="form-input">
+            <option *ngFor="let color of colors" [value]="color.colorId">{{ color.name }}</option>
+          </select>
+        </div>
+
+        <!-- Thêm các trường khác vào đây -->
+        <div class="form-buttons">
+          <!-- Nút lưu (thêm/cập nhật sản phẩm) -->
+          <button type="submit" class="form-submit-button" [disabled]="productForm.invalid">{{ editMode ? 'Cập nhật' : 'Thêm sản phẩm' }}</button>
+          <!-- Nút hủy -->
+          <button type="button" class="form-cancel-button" (click)="closeForm()">Hủy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Form để tải ảnh lên -->
+  <div *ngIf="showUploadForm" class="form-container">
+    <div class="form-content">
+      <form [formGroup]="uploadImageForm" (ngSubmit)="onUpload()">
+        <!-- Trường chọn ảnh -->
+        <div class="form-group">
+          <label for="image" class="form-label">Chọn ảnh</label>
+          <input id="image" type="file" (change)="onFileSelected($event)" class="form-input">
+        </div>
+        <div class="form-buttons">
+          <!-- Nút tải ảnh lên -->
+          <button type="submit" class="form-submit-button" [disabled]="uploadImageForm.invalid">Tải ảnh lên</button>
+          <!-- Nút hủy -->
+          <button type="button" class="form-cancel-button" (click)="closeUploadForm()">Hủy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Form để xem ảnh sản phẩm -->
+  <div *ngIf="showImages" class="form-container">
+    <div class="form-content">
+      <app-product-images [productId]="selectedProductId"></app-product-images>
+      <!-- Nút đóng form xem ảnh -->
+      <button (click)="closeImagesForm()">Đóng</button>
+    </div>
+  </div>
+</div>

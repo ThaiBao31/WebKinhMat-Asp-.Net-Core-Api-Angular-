@@ -1,0 +1,15 @@
+<div *ngIf="productId !== null" class="product-images-container">
+  <h3>Ảnh sản phẩm</h3>
+  <!-- Template HTML -->
+  <div *ngIf="productImages.length > 0" class="image-list-container">
+      <ul class="image-list">
+          <li *ngFor="let image of productImages" class="image-item">
+              <img [src]="image.imagePath" alt="Product Image" class="product-image">
+              <button (click)="deleteImage(image.productImageId)" class="delete-button">Xóa</button>
+          </li>
+      </ul>
+  </div>
+  <ng-template #noImages>
+      <p>Không có ảnh nào.</p>
+  </ng-template>
+</div>
